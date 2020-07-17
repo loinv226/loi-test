@@ -1,103 +1,33 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="vi" prefix="og: http://ogp.me/ns#">
-<!--<![endif]-->
+<html>
 <head>
-	<meta content="text/html" charset="utf-8">
-	<title>Itel</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<!-- Latest compiled and minified CSS -->
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
 
-	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
-	<link rel="stylesheet" type="text/css" href="font-awesome/all.css"/>
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/kk.css">
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="yokef">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-	<!-- Owl carousel slide Assets -->
-    <link href="css/owl.carousel.min.css" rel="stylesheet">
-    
-	<link rel="stylesheet" href="style.css" type="text/css" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	
-	<script src="js/custom.js"></script>
+  <title>yokef</title>
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
-	<!-- Header -->
-	<header class="header full-section">
-		<div class="container container-large">
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="logo">
-						<a href="" title="Chào mừng đến với Itel">
-							<img src="images/logo.png" alt="Chào mừng đến với Itel">
-						</a>
-					</div>
-					<div class="header-right">
-						<ul class="social">
-							<li><a href="tel:087 9999 639"><img src="images/icon-tel.png" alt="">087 9999 639</a></li>
-							<li><a href=""><img src="images/icon-face.png" alt="">Facebook/Itel.fan</a></li>
-							<li><a href="mailto:b2b@itelecom.vn"><img src="images/icon-mail.png" alt="">b2b@itelecom.vn</a></li>
-						</ul>
-						<a href="" class="logo-right" title="">
-							<img src="images/logo-right.png" alt="">
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-	<!-- End Header -->
-	<!-- Main - Content -->
-	<div class="main-content full-section main-index">
-
-		<!-- box-index -->
-		<section class="box-index full-section" style="background-image: url(images/bk.png);">
-			<div class="container container-large">
-				<div class="box-index-inner">
-					<img src="images/img1.png" class="img-box-index">
-					<div class="form-box-index">
-						<input type="text" placeholder="Đăng nhập bằng SĐT..." class="input-text">
-						<div class="div-input">
-							<input type="text" placeholder="Mật khẩu mã OTP..." class="input-text">
-							<button class="btn-otp input-text">Gửi mã OTP</button>
-						</div>
-						<div class="text-center">
-							<button class="btn-submit">Đăng nhập</button>
-							<div class="btn-radio">
-								<input type="checkbox" id="save" value="save">
-								<label for="save">Lưu mật khẩu</label>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End box-index -->
-
-	</div>
-	<!-- End Main - Content -->
-	<!-- Footer -->
-	<footer class="footer full-section">
-		<div class="container">
-			<div class="header-right">
-				<ul class="social">
-					<li><a href="tel:087 9999 639"><img src="images/icon-tel.png" alt="">087 9999 639</a></li>
-					<li><a href=""><img src="images/icon-face.png" alt="">Facebook/Itel.fan</a></li>
-					<li><a href="mailto:b2b@itelecom.vn"><img src="images/icon-mail.png" alt="">b2b@itelecom.vn</a></li>
-				</ul>
-				<a href="" class="logo-right" title="">
-					<img src="images/logo-right.png" alt="">
-				</a>
-			</div>
-		</div>
-	</footer>
-	<!-- End Footer -->
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
 </body>
 </html>
