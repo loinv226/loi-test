@@ -1,0 +1,1 @@
+{"version":3,"sources":["scenes/order/create/index.tsx"],"names":["Home","style","color"],"mappings":"6FAAA,mEAEe,SAASA,IACtB,OAAO,uBAAGC,MAAO,CAAEC,MAAO,UAAnB","file":"static/js/11.c6b6a13c.chunk.js","sourcesContent":["import React from \"react\";\n\nexport default function Home() {\n  return <p style={{ color: \"black\" }}>Create</p>;\n}\n"],"sourceRoot":""}

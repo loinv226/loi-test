@@ -1,0 +1,1 @@
+{"version":3,"sources":["scenes/order/import/index.tsx"],"names":["OrderImport","style","color"],"mappings":"6FAAA,mEAEe,SAASA,IACtB,OAAO,uBAAGC,MAAO,CAAEC,MAAO,UAAnB","file":"static/js/12.2f3f67d4.chunk.js","sourcesContent":["import React from \"react\";\n\nexport default function OrderImport() {\n  return <p style={{ color: \"black\" }}>Import</p>;\n}\n"],"sourceRoot":""}
