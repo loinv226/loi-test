@@ -3,7 +3,8 @@ import "./App.css";
 
 function App() {
   function callFlutter() {
-    window.logout();
+    // window.logout();
+    window.SEVI.postMessage("ok----");
   }
 
   return (
