@@ -4,6 +4,7 @@ import "./App.css";
 function App() {
   function callFlutter() {
     // window.logout();
+    alert("post direct");
     window.SEVI.postMessage("ok----");
   }
 
