@@ -1,1 +1,0 @@
-{"version":3,"sources":["order.css"],"names":[],"mappings":"AAAA,sBACE,wBAAyB,CACzB,iBACF,CACA,wBACE,yBAA2B,CAC3B,cAAe,CACf,uBACF","file":"7.b214abf2.chunk.css","sourcesContent":[".query_form_container {\n  border: 1px solid #dedede;\n  border-radius: 2px;\n}\n.order_query_tbl_header {\n  font-weight: 600 !important;\n  font-size: 14px;\n  color: #303133 !important;\n}\n"]}

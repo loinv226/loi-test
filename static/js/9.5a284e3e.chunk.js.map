@@ -1,1 +1,0 @@
-{"version":3,"sources":["scenes/error/index.tsx"],"names":["Error","style","color"],"mappings":"4FAAA,mEAEe,SAASA,IACtB,OAAO,uBAAGC,MAAO,CAAEC,MAAO,UAAnB","file":"static/js/9.5a284e3e.chunk.js","sourcesContent":["import React from \"react\";\n\nexport default function Error() {\n  return <p style={{ color: \"black\" }}>Error</p>;\n}\n"],"sourceRoot":""}
